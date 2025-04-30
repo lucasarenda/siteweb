@@ -1,0 +1,26 @@
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5%;
+    gap:50px;
+    font-size:15px;
+}
+.map{
+    background-color: rgb(197, 27, 27);
+    display: flex;
+    width:35%;
+    border-radius:8px;
+    flex-direction: column;
+    align-items: center;
+}
+.map img{
+    width:30rem;
+    margin:2%;
+    border-radius:5px;
+}
+input{
+    width:70%;
+    border-radius:4px;
+    border: none;
+}
