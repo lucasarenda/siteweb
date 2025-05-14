@@ -5,7 +5,7 @@ export default function sobre() {
   return (
     <body>
     <header>
-        <nav>
+        <nav className='cabecalho'>
         <Link href="/" >
             Home
           </Link>
@@ -19,7 +19,7 @@ export default function sobre() {
           <img src='logo.png'></img>
         </nav>
         </header>
-        <main>
+        <main className='textosobre'>
       <h1>Sobre Nós</h1>
       <p>Conheça mais sobre nosso projeto e propósito.</p>
       

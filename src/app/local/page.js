@@ -19,7 +19,7 @@ export default function Local() {
         </nav>
         </header>
     <main>
-      <h1>digite seu endereço completo abaixo e encontre os hospitais mais proximos a voce</h1>
+      <h1 className='titulolocal'>digite seu endereço completo abaixo e encontre os hospitais mais proximos a voce</h1>
       <div className='map'>
       <label>Endereço completo:</label>
       <input type="text" id="endereco" name="endereco" placeholder="Ex: Rua Exemplo, 123 - Centro, São Paulo/SP" required/>

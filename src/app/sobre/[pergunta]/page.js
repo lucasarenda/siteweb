@@ -20,9 +20,9 @@ const respostas = {
     const resposta = respostas[params.pergunta]
     return (
       <div>
-        <h1>{resposta.titulo}</h1>
-        <p>{resposta.conteudo}</p>
-        <Link href="/sobre">← Voltar para Sobre</Link>
+        <h1 className='respostatitulo'>{resposta.titulo}</h1>
+        <p className='respostaconteudo'>{resposta.conteudo}</p>
+        <Link href="/sobre" className='linkvoltar'>← Voltar para Sobre</Link>
       </div>
     )
   }

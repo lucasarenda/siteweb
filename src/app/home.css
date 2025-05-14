@@ -8,4 +8,22 @@ main {
 }
 main img{
   border-radius: 8px ;
+  box-shadow: 1px 1px 7px 2px;
 }
+@media (max-width: 1477px) {
+.titulohome{
+  font-size:20px;
+}
+
+}
+@media (max-width: 1013px) {
+.titulohome{
+  font-size:10px;
+}
+}
+@media (max-width: 460px) {
+.titulohome{
+  font-size:7px;
+}
+}
+

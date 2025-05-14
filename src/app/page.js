@@ -21,7 +21,7 @@ export default function Home() {
 
         </header>
     <main>
-      <h1>Sua saúde não pode esperar. Nós mostramos o caminho mais rápido!</h1>
+      <h1 className='titulohome'>Sua saúde não pode esperar. Nós mostramos o caminho mais rápido!</h1>
       <img src="/prontosocorro.jpg"/>
     </main>
     <footer>
