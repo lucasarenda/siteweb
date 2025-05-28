@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import "@/app/globals.css"
-import "@/app/home.css"
+import "../app/globals.css"
+import "../app/home.css"
 export default function Home() {
   return (
     <body>
