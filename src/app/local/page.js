@@ -3,8 +3,8 @@
 
 import Link from 'next/link';
 import { useEffect, useState, useRef } from 'react';
-import "@/app/globals.css";
-import "@/app/localizacao.css";
+import "../../app/globals.css"
+import "../../app/localizacao.css"
 
 export default function Local() {
   const [userLocation, setUserLocation] = useState(null);
