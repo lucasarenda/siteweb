@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import "@/app/globals.css"
-import "@/app/sobre.css"
+import "../../app/globals.css"
+import "../../app/sobre.css"
 export default function sobre() {
   return (
     <body>
