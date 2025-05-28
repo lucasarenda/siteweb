@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import "@/app/globals.css"
-import "@/app/sobre.css"
+import "../../app/globals.css"
+import "../../app/sobre.css"
 const respostas = {
     'porque': {
       titulo: 'Por que criamos este site?',
