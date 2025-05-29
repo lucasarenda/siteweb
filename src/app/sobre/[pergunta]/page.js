@@ -19,10 +19,10 @@ const respostas = {
   export default function PerguntaPage({ params }) {
     const resposta = respostas[params.pergunta]
     return (
-      <div>
+      <section>
         <h1 className='respostatitulo'>{resposta.titulo}</h1>
         <p className='respostaconteudo'>{resposta.conteudo}</p>
         <Link href="/sobre" className='linkvoltar'>← Voltar para Sobre</Link>
-      </div>
+      </section>
     )
   }
